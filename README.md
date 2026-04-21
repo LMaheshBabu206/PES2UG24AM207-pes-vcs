@@ -1,3 +1,26 @@
+# 🔧 PES-VCS: Mini Version Control System in C
+
+A simplified implementation of a Git-like version control system built from scratch using C.  
+This project demonstrates core operating system and filesystem concepts such as content-addressable storage, indexing, and commit history traversal.
+
+## 🚀 Features
+
+- 📦 Blob-based object storage (SHA-256)
+- 🌳 Tree structures for directories
+- 📌 Staging area (Index)
+- 📝 Commit system with history tracking
+- 🔍 Log traversal (like `git log`)
+- 💾 Efficient storage using deduplication
+
+## 🛠️ Technologies Used
+
+- C Programming
+- GCC Compiler
+- OpenSSL (for SHA hashing)
+- Linux (Ubuntu 22.04)
+
+---
+
 # Building PES-VCS — A Version Control System from Scratch
 
 **Objective:** Build a local version control system that tracks file changes, stores snapshots efficiently, and supports commit history. Every component maps directly to operating system and filesystem concepts.
